@@ -1,6 +1,5 @@
 // const Book = ({ img, title, author}) => {
 const Book = (props) => {
-  // const {img, title, author} = props.book;
   function clickHandler() {
     alert("Hello world");
   }
