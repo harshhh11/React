@@ -11,6 +11,8 @@ const ControlledInputs = () => {
   // const [email, setEmail] = useState('');
   const [person, setPerson] = useState({ firstName: '', email: '', age: '' });
   const [people, setPeople] = useState([]);
+  
+  // For connecting inputs to state 
   const handleChange = (e) => {
     const name = e.target.name;
     const value = e.target.value;
