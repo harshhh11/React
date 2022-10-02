@@ -4,6 +4,9 @@ import React, { useEffect, useRef } from 'react';
 // DOES NOT trigger re-render
 // target DOM nodes/elements
 
+// If we tried to count how many times our application renders using the useState Hook,
+// we would be caught in an infinite loop since this Hook itself causes a re-render.
+
 const UseRefBasics = () => {
   const refContainer = useRef(null);
   const divContainer = useRef(null);
