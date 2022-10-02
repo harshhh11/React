@@ -19,8 +19,8 @@ const UseEffectBasics = () => {
 };
 
 export default UseEffectBasics;
-//useState preserves the value between the renders and second one it triggers rerender.
-//useEffect is used when we want to s side effect and that is some work outside of component 
+//useState preserves the value between the renders and it triggers rerender.
+//useEffect is used when we want to some side effect and that is some work outside of component 
 //think data fetching, listening for events, signing up for subscriptions
 //it runs after every render
 //Hooks can't be used conditionally 
