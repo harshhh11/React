@@ -56,7 +56,7 @@ Root is where our JS App lives
 
 6. formatting, use paranthesis after return statement or put opening tag on the same line as return
 
-7. To go back to JavaScript World inside JSX we need to use {}, we can't have a statement inside these.
+7. To go back to JavaScript World inside JSX we need to use {}, we can't have a statement inside these, Only expressions
 
 8. All CSS goes inside a JS Object
 
