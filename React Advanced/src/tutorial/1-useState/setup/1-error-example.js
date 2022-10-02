@@ -20,5 +20,5 @@ export default ErrorExample;
 
 /* 
 * here we can't change the title because we are not re-rendering the component
-* useState keeps the value between the renders and also re-renders the component
+* useState keeps the value between the renders and also re-renders the current component and its children
 */
