@@ -4,6 +4,7 @@ import { data } from '../../../data';
 const UseStateArray = () => {
   const [people, setPeople] = React.useState(data);
   const removeItem = (id) => {
+    //filter method creates a new array filled with elements that pass a test provided by a function.
     let newPeople = people.filter(person => person.id !== id)
     setPeople(newPeople) 
   }
