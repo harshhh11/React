@@ -19,18 +19,16 @@ const Item = () => {
   };
 
   useEffect(() => {
-    return () => {
       window.addEventListener("resize", changeSize);
+    return () => {
       window.removeEventListener("resize", changeSize);
     };
-  });
+  }, []);
   return (
-    <React.Fragment>
-      <div>
-        <h3>Window</h3>
-        <h4>Size: {size}</h4>
+      <div style={{ marginTop: '2rem' }}>
+      <h1>Window</h1>
+      <h2>size : {size}</h2>
       </div>
-    </React.Fragment>
   );
 };
 
