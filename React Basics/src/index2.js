@@ -27,6 +27,7 @@ import ReactDom from "react-dom";
 // Nested Components 
 function Greeting() {
   return (
+    //Fragments let you group a list of children without adding extra nodes to the DOM.
     <>
       <Person/>
       <Message/> 
