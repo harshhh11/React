@@ -25,6 +25,10 @@ Root is where our JS App lives
 
 ## Create React App
 
+```shell
+  npx create-react-app
+```  
+
 1. Babel is a js transpiler that converts the newest(ES6) JS to the good old JS(ES5).
 2. webpack (module bundler) bundles resources, watching for changes and running babel 
 3. npx uses the latest react app version so we use it instead of npm(make sure to have npm 5.0 and above version)
