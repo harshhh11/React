@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 /* 
-  *  useState is function that accepts a state value as argument and 
-  *  returns an array populated with that state value and function
-  *  function returns controls the value of state 
+  *  useState is function that accepts a initial state as argument and 
+  *  returns an array populated with that current state and function that updates the state
+  *  State generally refers to data or properties that needs tracking in an application.
 */
 const UseStateBasics = () => {
   // console.log(useState('hello world'))
