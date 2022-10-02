@@ -8,7 +8,7 @@ const UseStateCounter = () => {
 const complexFunction = () => {
   setTimeout(() => {
     //setState or setValue(in this case) is Asynchronous 
-    // so when we are taking 'value', we are taking old value not the current one.
+    // so when we are taking 'value', we are taking old value not the current one and then we update
     // setValue(value + 1)
     //Functional Update Form
     setValue((prevState) => {
