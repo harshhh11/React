@@ -1,11 +1,13 @@
 import React from "react";
 import ReactDom from "react-dom";
 
+// Components always return JSX(Object)
 // function Greeting() {
 //   return <h4>this is harsh and this is my first component</h4>;
 // }
 
 // const Greeting = () => {
+                              // (element, prop, children)
 //   return React.createElement('h1', {}, 'hello world')
 // }
 
@@ -22,6 +24,7 @@ import ReactDom from "react-dom";
 //   return React.createElement('div', {}, React.createElement('h1', {}, 'hello world'));
 // }
 
+// Nested Components 
 function Greeting() {
   return (
     <>
