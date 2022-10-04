@@ -7,6 +7,8 @@ import React, { useEffect, useRef } from 'react';
 // If we tried to count how many times our application renders using the useState Hook,
 // we would be caught in an infinite loop since this Hook itself causes a re-render.
 
+// useRef is object with a property of current
+
 const UseRefBasics = () => {
   const refContainer = useRef(null);
   const divContainer = useRef(null);
