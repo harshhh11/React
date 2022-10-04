@@ -3,7 +3,7 @@ import Modal from "./Modal";
 import { data } from "../../../data";
 // reducer function
 // reducer takes the old state and spits the new state
-// reducer always have to return a state
+// reducer always have to return a state otherwise BIG ERROR 
 // dispatch passes the action object to reducer which changes the state
 import { reducer } from "./reducer";
 
