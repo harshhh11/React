@@ -13,7 +13,7 @@ const ReactRouterSetup = () => {
   return (
     <Router>
       <Navbar />
-      <Switch>
+      <Switch> // Only the first one that matches is displayed 
         <Route exact path="/">
           <Home/>
         </Route>
@@ -24,7 +24,7 @@ const ReactRouterSetup = () => {
           <People />
         </Route>
         <Route path="/person/:id" children={<Person />}></Route>
-        <Route path="*">
+        <Route path="*"> // Catch All Path
           <Error />
         </Route>
       </Switch>
