@@ -7,7 +7,7 @@ const url = 'https://course-api.com/javascript-store-products'
 
 // every time props or state changes, component re-renders
 // React.memo doesn't re-renders the component if the value of the prop doesn't change  
-// useCallback doesn't re-renders the component if the value of the function doesn't change
+// useCallback doesn't re-renders the component if the value of the function doesn't change // returns a memoized function 
 //useMemo memorizes a value
 const calcMostExpensive = (data) => {
   console.log('hello');
