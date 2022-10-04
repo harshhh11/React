@@ -26,7 +26,7 @@ Root is where our JS App lives
 ## Create React App
 
 ```shell
-  npx create-react-app
+  npx create-react-app my-app
 ```  
 
 1. Babel is a js transpiler that converts the newest(ES6) JS to the good old JS(ES5).
