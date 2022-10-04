@@ -1,3 +1,5 @@
+// React Context is a way to manage state globally.
+// We use Context API to avoid passing unnecessary data through components
 import React, { useState, useContext } from 'react';
 import { data } from '../../../data';
 // more components
